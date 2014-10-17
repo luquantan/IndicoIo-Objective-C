@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Indico iOS Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Indico.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C05FD55019F05C2400614E51</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C05FD55A19F05C2500614E51</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0B46FF619F19EDA00BE5A43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0B4700019F19EDA00BE5A43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0B4701919F19F2500BE5A43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0B4702319F19F2500BE5A43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0E4860119ED87E0009F4FEC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0E4861A19ED87E0009F4FEC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
