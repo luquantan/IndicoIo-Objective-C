@@ -44,8 +44,6 @@
         {
             [[[UIAlertView alloc] initWithTitle:@"Error!" message:[NSString stringWithFormat:@"%@",[error localizedDescription]] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
         }
-        
-        NSLog(@"%@",result);
     }];
     
     
