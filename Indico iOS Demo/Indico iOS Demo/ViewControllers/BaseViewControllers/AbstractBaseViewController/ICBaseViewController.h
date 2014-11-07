@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IndicoAPI.h"
+#import "ICHTTPService.h"
 
 typedef enum ICActivityType
 {

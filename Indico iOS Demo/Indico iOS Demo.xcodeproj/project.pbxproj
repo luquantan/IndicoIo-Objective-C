@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63F150831A0AB70D00989978 /* ICDocumentClassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F150821A0AB70D00989978 /* ICDocumentClassObject.m */; };
+		63F150861A0ACE0600989978 /* ICDocumentClassificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F150851A0ACE0600989978 /* ICDocumentClassificationViewController.m */; };
 		C05BB6E619EDA2220043B6B8 /* ICTextBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05BB6E519EDA2220043B6B8 /* ICTextBaseViewController.m */; };
 		C05BB6E919EDA22D0043B6B8 /* ICImageBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05BB6E819EDA22D0043B6B8 /* ICImageBaseViewController.m */; };
 		C05BB6EF19EDA27D0043B6B8 /* ICSentimentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05BB6EE19EDA27D0043B6B8 /* ICSentimentViewController.m */; };
@@ -32,8 +34,9 @@
 		C05BB72F19EDAFC40043B6B8 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = C05BB72219EDAFC40043B6B8 /* IQUIWindow+Hierarchy.m */; };
 		C05BB73419EDB6DF0043B6B8 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C05BB73319EDB6DF0043B6B8 /* image.jpeg */; };
 		C05FD54B19F046AC00614E51 /* ICTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD54A19F046AC00614E51 /* ICTabBarController.m */; };
-		C05FD5D919F060D000614E51 /* IndicoAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5BE19F060D000614E51 /* IndicoAPIConstants.m */; };
-		C05FD5DA19F060D000614E51 /* IndicoAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5C019F060D000614E51 /* IndicoAPI.m */; };
+		C05FD56219F05C2500614E51 /* IndicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD56119F05C2500614E51 /* IndicoTests.m */; };
+		C05FD5D919F060D000614E51 /* ICHTTPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5BE19F060D000614E51 /* ICHTTPConstants.m */; };
+		C05FD5DA19F060D000614E51 /* ICHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5C019F060D000614E51 /* ICHTTPService.m */; };
 		C05FD5DB19F060D000614E51 /* ICBaseModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5C419F060D000614E51 /* ICBaseModelObject.m */; };
 		C05FD5DC19F060D000614E51 /* ICEmotionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5C619F060D000614E51 /* ICEmotionObject.m */; };
 		C05FD5DD19F060D000614E51 /* ICLanguageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5C819F060D000614E51 /* ICLanguageObject.m */; };
@@ -43,7 +46,7 @@
 		C05FD5E119F060D000614E51 /* IQHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5D119F060D000614E51 /* IQHTTPService.m */; };
 		C05FD5E219F060D000614E51 /* IQMultipartFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5D319F060D000614E51 /* IQMultipartFormData.m */; };
 		C05FD5E319F060D000614E51 /* IQURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5D619F060D000614E51 /* IQURLConnection.m */; };
-		C0B46FF119F19E9400BE5A43 /* UIImage+ICHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B46FF019F19E9400BE5A43 /* UIImage+ICHelper.m */; };
+		C05FD5E419F060D000614E51 /* UIImage+ICHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FD5D819F060D000614E51 /* UIImage+ICHelper.m */; };
 		C0E4860819ED87E0009F4FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4860719ED87E0009F4FEC /* main.m */; };
 		C0E4860B19ED87E0009F4FEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4860A19ED87E0009F4FEC /* AppDelegate.m */; };
 		C0E4860E19ED87E0009F4FEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4860D19ED87E0009F4FEC /* ViewController.m */; };
@@ -53,6 +56,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C05FD55C19F05C2500614E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E485FA19ED87E0009F4FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E4860119ED87E0009F4FEC;
+			remoteInfo = "Indico iOS Demo";
+		};
 		C0E4861C19ED87E0009F4FEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C0E485FA19ED87E0009F4FEC /* Project object */;
@@ -76,6 +86,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63F150811A0AB70D00989978 /* ICDocumentClassObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICDocumentClassObject.h; sourceTree = "<group>"; };
+		63F150821A0AB70D00989978 /* ICDocumentClassObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICDocumentClassObject.m; sourceTree = "<group>"; };
+		63F150841A0ACE0600989978 /* ICDocumentClassificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICDocumentClassificationViewController.h; sourceTree = "<group>"; };
+		63F150851A0ACE0600989978 /* ICDocumentClassificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICDocumentClassificationViewController.m; sourceTree = "<group>"; };
 		C05BB6E419EDA2220043B6B8 /* ICTextBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICTextBaseViewController.h; sourceTree = "<group>"; };
 		C05BB6E519EDA2220043B6B8 /* ICTextBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICTextBaseViewController.m; sourceTree = "<group>"; };
 		C05BB6E719EDA22D0043B6B8 /* ICImageBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICImageBaseViewController.h; sourceTree = "<group>"; };
@@ -126,10 +140,15 @@
 		C05BB73319EDB6DF0043B6B8 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
 		C05FD54919F046AC00614E51 /* ICTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICTabBarController.h; sourceTree = "<group>"; };
 		C05FD54A19F046AC00614E51 /* ICTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICTabBarController.m; sourceTree = "<group>"; };
-		C05FD5BD19F060D000614E51 /* IndicoAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicoAPIConstants.h; sourceTree = "<group>"; };
-		C05FD5BE19F060D000614E51 /* IndicoAPIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicoAPIConstants.m; sourceTree = "<group>"; };
-		C05FD5BF19F060D000614E51 /* IndicoAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicoAPI.h; sourceTree = "<group>"; };
-		C05FD5C019F060D000614E51 /* IndicoAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicoAPI.m; sourceTree = "<group>"; };
+		C05FD55419F05C2400614E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05FD55519F05C2400614E51 /* ICIndico.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICIndico.h; sourceTree = "<group>"; };
+		C05FD55B19F05C2500614E51 /* IndicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05FD56019F05C2500614E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05FD56119F05C2500614E51 /* IndicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndicoTests.m; sourceTree = "<group>"; };
+		C05FD5BD19F060D000614E51 /* ICHTTPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICHTTPConstants.h; sourceTree = "<group>"; };
+		C05FD5BE19F060D000614E51 /* ICHTTPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICHTTPConstants.m; sourceTree = "<group>"; };
+		C05FD5BF19F060D000614E51 /* ICHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICHTTPService.h; sourceTree = "<group>"; };
+		C05FD5C019F060D000614E51 /* ICHTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICHTTPService.m; sourceTree = "<group>"; };
 		C05FD5C319F060D000614E51 /* ICBaseModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBaseModelObject.h; sourceTree = "<group>"; };
 		C05FD5C419F060D000614E51 /* ICBaseModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBaseModelObject.m; sourceTree = "<group>"; };
 		C05FD5C519F060D000614E51 /* ICEmotionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEmotionObject.h; sourceTree = "<group>"; };
@@ -148,8 +167,8 @@
 		C05FD5D319F060D000614E51 /* IQMultipartFormData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQMultipartFormData.m; sourceTree = "<group>"; };
 		C05FD5D519F060D000614E51 /* IQURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQURLConnection.h; sourceTree = "<group>"; };
 		C05FD5D619F060D000614E51 /* IQURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQURLConnection.m; sourceTree = "<group>"; };
-		C0B46FEF19F19E9400BE5A43 /* UIImage+ICHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ICHelper.h"; sourceTree = "<group>"; };
-		C0B46FF019F19E9400BE5A43 /* UIImage+ICHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ICHelper.m"; sourceTree = "<group>"; };
+		C05FD5D719F060D000614E51 /* UIImage+ICHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ICHelper.h"; sourceTree = "<group>"; };
+		C05FD5D819F060D000614E51 /* UIImage+ICHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ICHelper.m"; sourceTree = "<group>"; };
 		C0E4860219ED87E0009F4FEC /* Indico iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indico iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4860619ED87E0009F4FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E4860719ED87E0009F4FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,6 +184,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C05FD55819F05C2500614E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0E485FF19ED87E0009F4FEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +226,8 @@
 				C05BB6EE19EDA27D0043B6B8 /* ICSentimentViewController.m */,
 				C05BB6F019EDA28E0043B6B8 /* ICPoliticalViewController.h */,
 				C05BB6F119EDA28E0043B6B8 /* ICPoliticalViewController.m */,
+				63F150841A0ACE0600989978 /* ICDocumentClassificationViewController.h */,
+				63F150851A0ACE0600989978 /* ICDocumentClassificationViewController.m */,
 				C05BB6F319EDA2990043B6B8 /* ICLanguageViewController.h */,
 				C05BB6F419EDA2990043B6B8 /* ICLanguageViewController.m */,
 				C05BB6F619EDA2A90043B6B8 /* ICFacialEmotionViewController.h */,
@@ -284,16 +312,51 @@
 			path = TabBarController;
 			sourceTree = "<group>";
 		};
+		C05FD55219F05C2400614E51 /* Indico */ = {
+			isa = PBXGroup;
+			children = (
+				C05FD55519F05C2400614E51 /* ICIndico.h */,
+				C05FD55319F05C2400614E51 /* Supporting Files */,
+			);
+			path = Indico;
+			sourceTree = "<group>";
+		};
+		C05FD55319F05C2400614E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05FD55419F05C2400614E51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C05FD55E19F05C2500614E51 /* IndicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C05FD56119F05C2500614E51 /* IndicoTests.m */,
+				C05FD55F19F05C2500614E51 /* Supporting Files */,
+			);
+			path = IndicoTests;
+			sourceTree = "<group>";
+		};
+		C05FD55F19F05C2500614E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05FD56019F05C2500614E51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C05FD5BC19F060D000614E51 /* Indico_iOS_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				C05FD5BD19F060D000614E51 /* IndicoAPIConstants.h */,
-				C05FD5BE19F060D000614E51 /* IndicoAPIConstants.m */,
-				C05FD5BF19F060D000614E51 /* IndicoAPI.h */,
-				C05FD5C019F060D000614E51 /* IndicoAPI.m */,
-				C0B46FEE19F19E9400BE5A43 /* UIImage+ICHelper */,
+				C05FD5BD19F060D000614E51 /* ICHTTPConstants.h */,
+				C05FD5BE19F060D000614E51 /* ICHTTPConstants.m */,
+				C05FD5BF19F060D000614E51 /* ICHTTPService.h */,
+				C05FD5C019F060D000614E51 /* ICHTTPService.m */,
 				C05FD5C119F060D000614E51 /* ICModelObjects */,
 				C05FD5CD19F060D000614E51 /* IQHTTPService */,
+				C05FD5D719F060D000614E51 /* UIImage+ICHelper.h */,
+				C05FD5D819F060D000614E51 /* UIImage+ICHelper.m */,
 			);
 			name = Indico_iOS_SDK;
 			path = ../Indico_iOS_SDK;
@@ -309,6 +372,8 @@
 				C05FD5C819F060D000614E51 /* ICLanguageObject.m */,
 				C05FD5C919F060D000614E51 /* ICPoliticalObject.h */,
 				C05FD5CA19F060D000614E51 /* ICPoliticalObject.m */,
+				63F150811A0AB70D00989978 /* ICDocumentClassObject.h */,
+				63F150821A0AB70D00989978 /* ICDocumentClassObject.m */,
 				C05FD5CB19F060D000614E51 /* ICSentimentObject.h */,
 				C05FD5CC19F060D000614E51 /* ICSentimentObject.m */,
 			);
@@ -347,21 +412,14 @@
 			path = IQURLConnection;
 			sourceTree = "<group>";
 		};
-		C0B46FEE19F19E9400BE5A43 /* UIImage+ICHelper */ = {
-			isa = PBXGroup;
-			children = (
-				C0B46FEF19F19E9400BE5A43 /* UIImage+ICHelper.h */,
-				C0B46FF019F19E9400BE5A43 /* UIImage+ICHelper.m */,
-			);
-			path = "UIImage+ICHelper";
-			sourceTree = "<group>";
-		};
 		C0E485F919ED87E0009F4FEC = {
 			isa = PBXGroup;
 			children = (
 				C05FD5BC19F060D000614E51 /* Indico_iOS_SDK */,
 				C0E4860419ED87E0009F4FEC /* Indico iOS Demo */,
 				C0E4861E19ED87E0009F4FEC /* Indico iOS DemoTests */,
+				C05FD55219F05C2400614E51 /* Indico */,
+				C05FD55E19F05C2500614E51 /* IndicoTests */,
 				C0E4860319ED87E0009F4FEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -371,6 +429,7 @@
 			children = (
 				C0E4860219ED87E0009F4FEC /* Indico iOS Demo.app */,
 				C0E4861B19ED87E0009F4FEC /* Indico iOS DemoTests.xctest */,
+				C05FD55B19F05C2500614E51 /* IndicoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,6 +481,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C05FD55A19F05C2500614E51 /* IndicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05FD56D19F05C2500614E51 /* Build configuration list for PBXNativeTarget "IndicoTests" */;
+			buildPhases = (
+				C05FD55719F05C2500614E51 /* Sources */,
+				C05FD55819F05C2500614E51 /* Frameworks */,
+				C05FD55919F05C2500614E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05FD55D19F05C2500614E51 /* PBXTargetDependency */,
+			);
+			name = IndicoTests;
+			productName = IndicoTests;
+			productReference = C05FD55B19F05C2500614E51 /* IndicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C0E4860119ED87E0009F4FEC /* Indico iOS Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E4862519ED87E0009F4FEC /* Build configuration list for PBXNativeTarget "Indico iOS Demo" */;
@@ -467,6 +544,10 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Indico;
 				TargetAttributes = {
+					C05FD55A19F05C2500614E51 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C0E4860119ED87E0009F4FEC;
+					};
 					C0E4860119ED87E0009F4FEC = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
@@ -491,11 +572,19 @@
 			targets = (
 				C0E4860119ED87E0009F4FEC /* Indico iOS Demo */,
 				C0E4861A19ED87E0009F4FEC /* Indico iOS DemoTests */,
+				C05FD55A19F05C2500614E51 /* IndicoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C05FD55919F05C2500614E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0E4860019ED87E0009F4FEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,6 +607,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C05FD55719F05C2500614E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05FD56219F05C2500614E51 /* IndicoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0E485FE19ED87E0009F4FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -530,6 +627,7 @@
 				C05BB6F219EDA28E0043B6B8 /* ICPoliticalViewController.m in Sources */,
 				C05BB72819EDAFC40043B6B8 /* IQNSArray+Sort.m in Sources */,
 				C05BB72C19EDAFC40043B6B8 /* IQToolbar.m in Sources */,
+				63F150861A0ACE0600989978 /* ICDocumentClassificationViewController.m in Sources */,
 				C05FD5E019F060D000614E51 /* IQHTTPConstants.m in Sources */,
 				C05FD5DB19F060D000614E51 /* ICBaseModelObject.m in Sources */,
 				C05FD5DF19F060D000614E51 /* ICSentimentObject.m in Sources */,
@@ -537,7 +635,7 @@
 				C05BB72419EDAFC40043B6B8 /* IQBarButtonItem.m in Sources */,
 				C0E4860819ED87E0009F4FEC /* main.m in Sources */,
 				C05BB6FB19EDA2B50043B6B8 /* ICFacialFeatureViewController.m in Sources */,
-				C0B46FF119F19E9400BE5A43 /* UIImage+ICHelper.m in Sources */,
+				C05FD5E419F060D000614E51 /* UIImage+ICHelper.m in Sources */,
 				C05BB6F519EDA2990043B6B8 /* ICLanguageViewController.m in Sources */,
 				C05FD5DC19F060D000614E51 /* ICEmotionObject.m in Sources */,
 				C05BB6E919EDA22D0043B6B8 /* ICImageBaseViewController.m in Sources */,
@@ -548,11 +646,12 @@
 				C05BB72E19EDAFC40043B6B8 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				C05FD54B19F046AC00614E51 /* ICTabBarController.m in Sources */,
 				C05BB72719EDAFC40043B6B8 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				63F150831A0AB70D00989978 /* ICDocumentClassObject.m in Sources */,
 				C05BB6F819EDA2A90043B6B8 /* ICFacialEmotionViewController.m in Sources */,
-				C05FD5D919F060D000614E51 /* IndicoAPIConstants.m in Sources */,
+				C05FD5D919F060D000614E51 /* ICHTTPConstants.m in Sources */,
 				C05BB72D19EDAFC40043B6B8 /* IQUIView+Hierarchy.m in Sources */,
 				C05BB72A19EDAFC40043B6B8 /* IQTextView.m in Sources */,
-				C05FD5DA19F060D000614E51 /* IndicoAPI.m in Sources */,
+				C05FD5DA19F060D000614E51 /* ICHTTPService.m in Sources */,
 				C05BB72619EDAFC40043B6B8 /* IQKeyboardManager.m in Sources */,
 				C05BB6E619EDA2220043B6B8 /* ICTextBaseViewController.m in Sources */,
 				C05BB6FE19EDA2C00043B6B8 /* ICImageFeatureViewController.m in Sources */,
@@ -573,6 +672,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C05FD55D19F05C2500614E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E4860119ED87E0009F4FEC /* Indico iOS Demo */;
+			targetProxy = C05FD55C19F05C2500614E51 /* PBXContainerItemProxy */;
+		};
 		C0E4861D19ED87E0009F4FEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C0E4860119ED87E0009F4FEC /* Indico iOS Demo */;
@@ -581,6 +685,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C05FD56E19F05C2500614E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndicoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indico iOS Demo.app/Indico iOS Demo";
+			};
+			name = Debug;
+		};
+		C05FD56F19F05C2500614E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndicoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indico iOS Demo.app/Indico iOS Demo";
+			};
+			name = Release;
+		};
 		C0E4862319ED87E0009F4FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -720,6 +856,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C05FD56D19F05C2500614E51 /* Build configuration list for PBXNativeTarget "IndicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05FD56E19F05C2500614E51 /* Debug */,
+				C05FD56F19F05C2500614E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0E485FD19ED87E0009F4FEC /* Build configuration list for PBXProject "Indico iOS Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

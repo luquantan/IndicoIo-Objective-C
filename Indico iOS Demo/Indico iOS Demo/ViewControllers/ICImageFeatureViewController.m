@@ -26,7 +26,7 @@
     __weak __typeof__(self) weakSelf = self;
     
     self.doneButton.enabled = NO;
-    connection = [[IndicoAPI service] imageFeaturesWithImage:self.imageView.image completionHandler:^(NSDictionary *result, NSError *error) {
+    connection = [[ICHTTPService service] imageFeaturesWithImage:self.imageView.image completionHandler:^(NSDictionary *result, NSError *error) {
         
         self.doneButton.enabled = YES;
         [weakSelf setActivityType:ICActivityTypeNone];

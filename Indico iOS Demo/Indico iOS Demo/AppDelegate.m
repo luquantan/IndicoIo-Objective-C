@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "IndicoAPI.h"
+#import "ICHTTPService.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[IndicoAPI service] setLogEnabled:YES];
+    [[ICHTTPService service] setLogEnabled:YES];
 
     // Override point for customization after application launch.
     return YES;

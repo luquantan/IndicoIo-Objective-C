@@ -27,7 +27,7 @@
     __weak __typeof__(self) weakSelf = self;
     
     self.doneButton.enabled = NO;
-    connection = [[IndicoAPI service] facialEmotionRecognitionWithImage:self.imageView.image completionHandler:^(NSDictionary *result, NSError *error) {
+    connection = [[ICHTTPService service] facialEmotionRecognitionWithImage:self.imageView.image completionHandler:^(NSDictionary *result, NSError *error) {
         
         self.doneButton.enabled = YES;
         [weakSelf setActivityType:ICActivityTypeNone];

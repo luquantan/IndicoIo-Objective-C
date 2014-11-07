@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IndicoAPIConstants.h"
+#import "ICHTTPConstants.h"
 
 @interface ICBaseModelObject : NSObject <NSCoding, NSCopying>
 

@@ -1,6 +1,0 @@
-framework module Indico {
-  umbrella header "Indico.h"
-
-  export *
-  module * { export * }
-}

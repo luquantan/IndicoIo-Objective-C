@@ -48,20 +48,6 @@
                ReferencedContainer = "container:Indico iOS Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0B4700019F19EDA00BE5A43"
-               BuildableName = "IndicoTests.xctest"
-               BlueprintName = "IndicoTests"
-               ReferencedContainer = "container:Indico iOS Demo.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -85,16 +71,6 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C05FD55A19F05C2500614E51"
-               BuildableName = "IndicoTests.xctest"
-               BlueprintName = "IndicoTests"
-               ReferencedContainer = "container:Indico iOS Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0B4700019F19EDA00BE5A43"
                BuildableName = "IndicoTests.xctest"
                BlueprintName = "IndicoTests"
                ReferencedContainer = "container:Indico iOS Demo.xcodeproj">

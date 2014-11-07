@@ -131,6 +131,7 @@
                         <segue destination="Vz2-TZ-qjp" kind="relationship" relationship="viewControllers" id="klo-3G-atl"/>
                         <segue destination="gj9-Nt-zN1" kind="relationship" relationship="viewControllers" id="bHb-7B-6jg"/>
                         <segue destination="S3U-z4-b6V" kind="relationship" relationship="viewControllers" id="q5n-rJ-F8U"/>
+                        <segue destination="yIk-h8-y3m" kind="relationship" relationship="viewControllers" id="Aks-7k-xgl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9VJ-cj-sAM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -469,6 +470,83 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P34-cU-M2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1087" y="163"/>
+        </scene>
+        <!--Image Features-->
+        <scene sceneID="PVD-Gj-h3S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yIk-h8-y3m" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Image Features" image="imageFeatures" id="cbx-OG-oOI"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ugm-sO-RMB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.89273226780000003" blue="0.86163738729999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.1411764771" green="0.56078433989999998" blue="0.69803923369999998" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dfh-Vg-pKW" kind="relationship" relationship="rootViewController" id="J3S-72-6eQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jZE-30-W0R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1609" y="179"/>
+        </scene>
+        <!--Political Sentiment Analysis-->
+        <scene sceneID="lKF-uU-suk">
+            <objects>
+                <viewController title="Political Sentiment Analysis" automaticallyAdjustsScrollViewInsets="NO" id="dfh-Vg-pKW" customClass="ICDocumentClassificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V3O-E2-gp6"/>
+                        <viewControllerLayoutGuide type="bottom" id="q3u-xz-I7o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tH8-uf-092">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Wish we had more bike lanes. Hopefully, driverless cars will chance economics from ownership to fee for service." translatesAutoresizingMaskIntoConstraints="NO" id="dN3-5a-MWS">
+                                <rect key="frame" x="10" y="74" width="300" height="395"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="FvZ-oc-tc1" id="sHO-be-qrW"/>
+                                </connections>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kF3-jD-9Kd">
+                                <rect key="frame" x="10" y="479" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneAction:" destination="dfh-Vg-pKW" eventType="touchUpInside" id="WOh-H0-TJv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kF3-jD-9Kd" secondAttribute="trailing" constant="10" id="7bX-Fq-jdK"/>
+                            <constraint firstItem="kF3-jD-9Kd" firstAttribute="leading" secondItem="tH8-uf-092" secondAttribute="leading" constant="10" id="8tu-ct-R9t"/>
+                            <constraint firstItem="dN3-5a-MWS" firstAttribute="leading" secondItem="tH8-uf-092" secondAttribute="leading" constant="10" id="Cl4-Np-yit"/>
+                            <constraint firstItem="q3u-xz-I7o" firstAttribute="top" secondItem="kF3-jD-9Kd" secondAttribute="bottom" constant="10" id="MiS-ue-WB6"/>
+                            <constraint firstItem="dN3-5a-MWS" firstAttribute="top" secondItem="V3O-E2-gp6" secondAttribute="bottom" constant="10" id="gqL-7c-pg7"/>
+                            <constraint firstItem="kF3-jD-9Kd" firstAttribute="top" secondItem="dN3-5a-MWS" secondAttribute="bottom" constant="10" id="lJ6-9n-nlo"/>
+                            <constraint firstAttribute="trailing" secondItem="dN3-5a-MWS" secondAttribute="trailing" constant="10" id="wmE-2f-mot"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Political Sentiment Analysis" id="3my-sr-Q25"/>
+                    <connections>
+                        <outlet property="doneButton" destination="kF3-jD-9Kd" id="LXt-Ma-n9A"/>
+                        <outlet property="textView" destination="dN3-5a-MWS" id="iO6-qN-jUl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kxN-Uj-gH8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1609" y="932"/>
         </scene>
     </scenes>
     <resources>

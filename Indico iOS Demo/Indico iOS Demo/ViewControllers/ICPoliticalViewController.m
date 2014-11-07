@@ -27,7 +27,7 @@
     __weak __typeof__(self) weakSelf = self;
     
     self.doneButton.enabled = NO;
-    connection = [[IndicoAPI service] politicalSentimentAnalysisWithText:self.textView.text completionHandler:^(NSDictionary *result, NSError *error) {
+    connection = [[ICHTTPService service] politicalSentimentAnalysisWithText:self.textView.text completionHandler:^(NSDictionary *result, NSError *error) {
         
         self.doneButton.enabled = YES;
         [weakSelf setActivityType:ICActivityTypeNone];
@@ -44,6 +44,8 @@
         {
             [[[UIAlertView alloc] initWithTitle:@"Error!" message:[NSString stringWithFormat:@"%@",[error localizedDescription]] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
         }
+        
+        NSLog(@"%@",result);
     }];
     
     
