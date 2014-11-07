@@ -174,7 +174,7 @@ NSString *const kICImageFeaturesAPIPath  =   @"/imagefeatures";
 /*!--------------------------------------------------------------
  --------------------------------------------------------------*/
 
-NSString *const kICDocumentClassificationAPIPath  =   @"/documentclassification";
+NSString *const kICDocumentClassificationAPIPath  =   @"/texttags";
 
 /*  Request */
 //{'data': "raw text string"}

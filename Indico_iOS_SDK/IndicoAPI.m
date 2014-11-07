@@ -121,4 +121,11 @@
 /*!--------------------------------------------------------------
  --------------------------------------------------------------*/
 
+-(IQURLConnection*)DocumentClassificationWithText:(NSString*)text completionHandler:(IQDictionaryCompletionBlock)completionHandler
+{
+    NSDictionary *attributes = @{kICDataKey:text};
+    
+    return [self requestWithPath:kICDocumentClassificationAPIPath httpMethod:kIQHTTPMethodPOST parameter:attributes completionHandler:completionHandler];
+}
+
 @end
