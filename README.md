@@ -13,7 +13,7 @@ http://indico.readme.io/
 
 Documentation
 ------------
-We now have [organized documentation](http://indico.readme.io/v1.0/docs)
+Found [here](http://indico.readme.io/v1.0/docs)
 
 Current APIs (v1.0)
 ====================
