@@ -11,6 +11,10 @@ Check out indico API documentation here:
 
 http://indico.readme.io/
 
+Update
+------------
+We now have [organized documentation](http://indico.readme.io/v1.0/docs)
+
 Current APIs (v1.0)
 ====================
 
